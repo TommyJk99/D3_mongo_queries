@@ -1,0 +1,20 @@
+{
+  "name": "d3_mongo_queries",
+  "version": "1.0.0",
+  "description": "- [Express](#express)   - [Inizializzazione](#middleware-di-errore-più-complesso-con-spunti-interessanti)   - [Routing](#cose-utili-per-il-routing)   - [Tenere traccia delle rotte](#tenere-traccia-delle-rotte)   - [Middlewares](#middlewares)   - [Pagination](#pagination) - [MongoDB Atlas](#mongodb-atlas)   - [Queries](#queries)   - [Queries su MDB Compass](#utilizzo-queries-su-mongodb-compass)   - [Selettori](#lista-dei-possibili-query-selectors) - [Mongoose (con Express)](#mongoose-con-express)   - [Esempi CRUD](#esempi-crud)   - [Schemi e modelli](#schemi-e-modelli)   - [Variabili d'ambiente](#utilizzo-variabili-dambiente) - [Altro](#altro)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
