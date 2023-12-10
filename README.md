@@ -448,6 +448,12 @@ All'interno di mongoDB Compass le queries si scriveranno in questo modo:
 //restituisce i prodotti con 'price' compreso tra 100 e 200 (con estremi compresi)
 ```
 
+```cpp
+{ $and: [{ eyeColor: { $ne: "green" }}, {eyeColor: { $ne: "blue" } }] }
+
+//restituisce gli eyeColor con colori diversi da 'green' e 'blue'
+```
+
 ## Esempi di utilizzo delle queries con Mongoose
 
 ### Esempio 1 (cerco oggetti nel DB in un range di prezzo)
